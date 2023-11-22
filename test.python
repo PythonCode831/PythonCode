@@ -1,0 +1,10 @@
+def mysum(*avg):
+    r = 0
+    for i in avg:
+        r = r+i
+    return r
+a = int(input("a: "))
+b = int(input("b: "))
+c =int(input("c: "))
+
+print(mysum(a,b,c))
